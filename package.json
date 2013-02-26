@@ -1,0 +1,24 @@
+{
+    "name"        : "peerindex-api",
+    "version"     : "0.1.0-1",
+    "description" : "PeerIndex API client",
+    "author"      : "Sid Karunaratne <sid.karunaratne@peerindex.com>",
+    "repository" : {
+        "type"   : "git",
+        "url"    : "http://github.com/sakaru/peerindex-nodejs.git"
+    },
+    "bugs": {
+        "url"   : "http://github.com/sakaru/peerindex-nodejs/issues",
+        "email" : "sid.karunaratne@peerindex.com"
+    },
+    "directories": {
+        "lib"    : "./lib",
+        "example": "./examples"
+    },
+    "main"       : "./lib/peerindex",
+    "keywords" : [
+        "peerindex",
+        "influence"
+    ],
+    "license": "MIT"
+}
