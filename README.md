@@ -11,7 +11,7 @@ See examples/example.js for some sample usage, but essentially:
 var PeerIndexClient = require('./lib/peerindex.js');
 var api = new PeerIndexClient('f183qza9k88mjynhtjfc56ce');
 var query = {
-    twitter_screen_name: 'fhuszar'
+    twitter_screen_name: 'mischatuffield'
 };
 api.actorBasic(query, function (actor, result) {
     // Deal with the resulting actor object
